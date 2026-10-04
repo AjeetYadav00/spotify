@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify — Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It’s easy — we’ll help you get started.</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Find a podcast to follow</p>
+                        <p class="box-p2">We’ll keep you updated on new episodes.</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-navbar">
+              <div class="sticky-nav-arrow">
+                  <img src="./assets/backward_icon.png">
+                <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                <button class="badge hide">Explore Premium</button>
+                <button class="badge install-button"><i class="fa-regular fa-circle-down" aria-hidden="true"></i> Install app</button>
+                <img src="./assets/ajeet.jpg" class="profile-icon" alt="Ajeet Yadav profile photo">
+                </div>
+            </div>
+
+         
+             <section class="welcome-section" aria-label="Welcome">
+                <p class="welcome-eyebrow">WELCOME BACK</p>
+                <p class="welcome-copy">A little music can change the whole mood. Pick up where you left off.</p>
+             </section>
+             <section class="featured-banner" aria-label="Featured playlist">
+                <img src="./assets/card1img.jpeg" class="featured-cover" alt="Global Top 50 playlist artwork">
+                <div class="featured-copy">
+                    <span class="featured-label">YOUR DAILY SOUNDTRACK</span>
+                    <h2>Global Top 50</h2>
+                    <p>The tracks making waves around the world, all in one place.</p>
+                    <a class="featured-button" href="#Treanding">Explore trending <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="featured-decoration" aria-hidden="true"><i class="fa-solid fa-music"></i></div>
+             </section>
+             <h2 class="section-heading">Jump back in</h2>
+             <div class="shortcut-grid" aria-label="Quick playlist shortcuts">
+                <a class="shortcut" href="#todays-top-hits">
+                    <img src="./assets/card2img.jpeg" alt="">
+                    <span>Today's Top Hits</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+                <a class="shortcut" href="#chill-mix">
+                    <img src="./assets/card3img.jpeg" alt="">
+                    <span>Chill Mix</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+                <a class="shortcut" href="#indie-select">
+                    <img src="./assets/card4img.jpeg" alt="">
+                    <span>Indie Select</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+                <a class="shortcut" href="#discover-weekly">
+                    <img src="./assets/card6img.jpeg" alt="">
+                    <span>Discover Weekly</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+             </div>
+
+               <h2 id="Treanding">Trending near you</h2>
+             <div class="card-container">
+                
+                   <div class="card" id="todays-top-hits">
+                    <img src="./assets/card2img.jpeg" class="card-img" alt="Trending playlist cover">
+                    <p class="card-title">Today's Top Hits</p>
+                    <p class="info">The songs everyone has on repeat right now.</p>
+                </div>
+                <div class="card" id="chill-mix">
+                    <img src="./assets/card3img.jpeg" class="card-img" alt="Chill playlist cover">
+                    <p class="card-title">Chill Mix</p>
+                    <p class="info">Easygoing tracks for a slower kind of day.</p>
+                </div>
+                <div class="card" id="indie-select">
+                    <img src="./assets/card4img.jpeg" class="card-img" alt="Indie playlist cover">
+                    <p class="card-title">Indie Select</p>
+                    <p class="info">Fresh finds and favourites from indie artists.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img" alt="Daily mix playlist cover">
+                    <p class="card-title">Daily Mix</p>
+                    <p class="info">A personal mix inspired by what you love.</p>
+                </div>
+                <div class="card" id="discover-weekly">
+                    <img src="./assets/card6img.jpeg" class="card-img" alt="Discover playlist cover">
+                    <p class="card-title">Discover Weekly</p>
+                    <p class="info">New music picked just for your week.</p>
+                </div>
+             
+            </div>
+            <h2>Featured charts</h2>
+            <div class="card-container">
+               <div class="card">
+                   <img src="./assets/card5img.jpeg" class="card-img" alt="Global Top 50 playlist cover">
+                   <p class="card-title">Global Top 50</p>
+                   <p class="info">The biggest songs from every corner of the globe.</p>
+               </div>
+               <div class="card">
+                <img src="./assets/card6img.jpeg" class="card-img" alt="Viral Hits playlist cover">
+                <p class="card-title">Viral Hits</p>
+                <p class="info">The tracks taking over your playlists and feed.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/card1img.jpeg" class="card-img" alt="Mood Booster playlist cover">
+                <p class="card-title">Mood Booster</p>
+                <p class="info">Feel-good favourites to brighten your day.</p>
+            </div>
+              </div>
+         <div class="footer">
+            <div class="line"></div>
+         </div>
+        </div>
+       
+        <div class="music-player">
+            <div class="demo">
+                  <img src="assets/ajeet.jpg" class="demo-img" alt="Ajeet Yadav">
+                    <div class="ancer">
+                      <a href="#">Ajeet Yadav</a>
+                  <span class="track-caption">Your music space</span>
+              </div>
+              <i class="fa-regular fa-heart player-action" aria-label="Like"></i>
+              <i class="fa-brands fa-flipboard player-action" aria-label="Open now playing view"></i>
+            </div>
+            <div class="player-bar">
+                <div class="player-img">
+                   <img src="./assets/player_icon1.png" class="player_icon1" alt="Shuffle">
+                   <img src="./assets/player_icon2.png" class="player_icon2" alt="Previous">
+                   <img src="./assets/player_icon3.png" class="player_icon3" alt="Play">
+                   <img src="./assets/player_icon4.png" class="player_icon4" alt="Next">
+                   <img src="./assets/player_icon5.png" class="player_icon5" alt="Repeat">
+                </div>
+                    <div class="range"><span>1:33</span><input type="range" min="0" max="100" step="1" value="46" class="range-a" aria-label="Track progress"><span>3:33</span></div>
+            </div>
+            <div class="control-bar">
+                <div class="control-div">
+                    <i class="fa-solid fa-circle-play" id="nn"></i>
+                    <i class="fa-solid fa-volume-high">
+                        <input type="range" min="0" max="100" step="10" value="50" aria-label="Volume">
+                    </i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
